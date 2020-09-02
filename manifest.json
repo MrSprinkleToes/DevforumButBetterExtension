@@ -5,7 +5,6 @@
 	"permissions": ["webNavigation", "tabs", "http://*/", "https://*/"],
 	"manifest_version": 2,
 	"web_accessible_resources": ["logo.png"],
-	"icons": ["logo.png"],
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": false
