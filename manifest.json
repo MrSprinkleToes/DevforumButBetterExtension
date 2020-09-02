@@ -1,0 +1,13 @@
+{
+	"name": "Devforum Better Edition",
+	"version": "0.1",
+	"description": "Makes the devforum look better!",
+	"permissions": ["webNavigation", "tabs", "http://*/", "https://*/"],
+	"manifest_version": 2,
+	"web_accessible_resources": ["logo.png"],
+	"icons": ["logo.png"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	}
+}
